@@ -1,0 +1,23 @@
+{
+    "algo": "blake3",
+    "coin": "alph",
+    "pools": [
+        {
+            "url": "stratum+tcp://alph.woolypooly.com:3104",
+            "user": "3cUsRxSq6CiiSC2ykHNSwuUTZTvoeCfud5PQLffkwWP4F7kdHCSvv",
+            "pass": "x",
+            "worker": "isfcr-rig"
+        }
+    ],
+    "api-bind-http": "127.0.0.1:4067",
+    "json-response": true,
+    "retries": 5,
+    "retry-pause": 5,
+    "timeout": 60,
+    "no-watchdog": false,
+    "exit-on-cuda-error": true,
+    "exit-on-connection-lost": false,
+    "log-path": "logs/trex-alph.log",
+    "temperature-limit": 80,
+    "temperature-start": 60
+}

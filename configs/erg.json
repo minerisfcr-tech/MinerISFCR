@@ -1,0 +1,23 @@
+{
+    "algo": "autolykos2",
+    "coin": "erg",
+    "pools": [
+        {
+            "url": "stratum+tcp://erg.woolypooly.com:3100",
+            "user": "9iP2k4PdDjrVabvS1kTUDt7zZZj3djzsbfpnoKqDTj4i8VJpE1y",
+            "pass": "x",
+            "worker": "isfcr-rig"
+        }
+    ],
+    "api-bind-http": "127.0.0.1:4067",
+    "json-response": true,
+    "retries": 5,
+    "retry-pause": 5,
+    "timeout": 60,
+    "no-watchdog": false,
+    "exit-on-cuda-error": true,
+    "exit-on-connection-lost": false,
+    "log-path": "logs/trex-erg.log",
+    "temperature-limit": 80,
+    "temperature-start": 60
+}

@@ -1,0 +1,30 @@
+# Python
+venv/
+backend/venv/
+__pycache__/
+*.pyc
+
+# Node
+node_modules/
+frontend/build/
+
+# Miner binaries (downloaded by setup.sh, not committed)
+bin/
+
+# Logs (generated at runtime)
+logs/*.log
+
+# OS / editor noise
+.DS_Store
+*.swp
+
+*.deb
+*.AppImage
+*.img
+*.img.xz
+*.tar
+*.tar.gz
+*.tar.bz2
+crypto_mining/
+agent/
+downloads/
