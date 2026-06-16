@@ -1,0 +1,23 @@
+{
+    "algo": "etchash",
+    "coin": "etc",
+    "pools": [
+        {
+            "url": "stratum+tcp://etc.2miners.com:1010",
+            "user": "0x4237C08E063b80C016c6AB4Ec7a1AFAd059034F6",
+            "pass": "x",
+            "worker": "isfcr-rig"
+        }
+    ],
+    "api-bind-http": "127.0.0.1:4067",
+    "json-response": true,
+    "retries": 5,
+    "retry-pause": 5,
+    "timeout": 60,
+    "no-watchdog": false,
+    "exit-on-cuda-error": true,
+    "exit-on-connection-lost": false,
+    "log-path": "logs/trex-etc.log",
+    "temperature-limit": 80,
+    "temperature-start": 60
+}

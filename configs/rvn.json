@@ -1,0 +1,23 @@
+{
+    "algo": "kawpow",
+    "coin": "rvn",
+    "pools": [
+        {
+            "url": "stratum+tcp://rvn.2miners.com:6060",
+            "user": "RVF6yRWrXd8JW5ZGydj5hranXgtfijviT4",
+            "pass": "x",
+            "worker": "isfcr-rig"
+        }
+    ],
+    "api-bind-http": "127.0.0.1:4067",
+    "json-response": true,
+    "retries": 5,
+    "retry-pause": 5,
+    "timeout": 60,
+    "no-watchdog": false,
+    "exit-on-cuda-error": true,
+    "exit-on-connection-lost": false,
+    "log-path": "logs/trex-rvn.log",
+    "temperature-limit": 80,
+    "temperature-start": 60
+}
